@@ -26,7 +26,7 @@ Directories:
 
 ## License
 
+Copyright 2008-2023 Rodolfo González González.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
-
-Copyright 2008-2023 Rodolfo González González.
