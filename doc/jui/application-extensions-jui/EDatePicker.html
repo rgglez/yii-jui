@@ -1,0 +1,1605 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class EDatePicker</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class EDatePicker</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+													<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">EDatePicker is a Yii widget which encapsulates the functionality of the  jQuery UI datepicker widget to generate a date picker.</p>
+<p class="description"><p>Works with jQuery 1.3 and jQuery UI 1.7</p></p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Rodolfo González González</li>
+				<li><span class="field">link:</span> <a href="http://docs.jquery.com/UI/Datepicker">http://docs.jquery.com/UI/Datepicker</a></li>
+				<li><span class="field">since:</span> 1.0.2</li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_EDatePicker.php.html">/EDatePicker.php</a> (line <span class="field">76</span>)
+		</p>
+		
+				
+		<pre>CInputWidget
+   |
+   --<a href="../application-extensions-jui/EJqueryUiWidget.html">EJqueryUiWidget</a>
+      |
+      --EDatePicker</pre>
+	
+			</div>
+</div>
+
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+																																																																																																																																																																																								<div class="var-title">
+					<span class="var-type">string</span>
+					<a href="#$dateFormat" title="details" class="var-name">$dateFormat</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">string</span>
+					<a href="#$effect" title="details" class="var-name">$effect</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">array</span>
+					<a href="#$effectOptions" title="details" class="var-name">$effectOptions</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">boolean</span>
+					<a href="#$enabled" title="details" class="var-name">$enabled</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">string</span>
+					<a href="#$fontSize" title="details" class="var-name">$fontSize</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">string</span>
+					<a href="#$image" title="details" class="var-name">$image</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">string</span>
+					<a href="#$language" title="details" class="var-name">$language</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">string</span>
+					<a href="#$maxDate" title="details" class="var-name">$maxDate</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">string</span>
+					<a href="#$minDate" title="details" class="var-name">$minDate</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">string</span>
+					<a href="#$mode" title="details" class="var-name">$mode</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">string</span>
+					<a href="#$showOn" title="details" class="var-name">$showOn</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">array</span>
+					<a href="#$timeHtmlOptions" title="details" class="var-name">$timeHtmlOptions</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">array</span>
+					<a href="#$timeOptions" title="details" class="var-name">$timeOptions</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">string</span>
+					<a href="#$type" title="details" class="var-name">$type</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">boolean</span>
+					<a href="#$useSpecialFormat" title="details" class="var-name">$useSpecialFormat</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">array</span>
+					<a href="#$validCallbacks" title="details" class="var-name">$validCallbacks</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">array</span>
+					<a href="#$validEffects" title="details" class="var-name">$validEffects</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">array</span>
+					<a href="#$validLanguages" title="details" class="var-name">$validLanguages</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">array</span>
+					<a href="#$validModes" title="details" class="var-name">$validModes</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">array</span>
+					<a href="#$validOptions" title="details" class="var-name">$validOptions</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">array</span>
+					<a href="#$validPresetDateFormats" title="details" class="var-name">$validPresetDateFormats</a>
+				</div>
+											</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																		<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																				<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#encode" title="details" class="method-name">encode</a>
+											(<span class="var-type">array</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+																																																																																																																																																																																																																								
+												<div class="method-definition">
+											<span class="method-result">EDatePicker</span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$owner</span> = <span class="var-default">null</span>])
+									</div>
+																								<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getDateFormat" title="details" class="method-name">getDateFormat</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getEffect" title="details" class="method-name">getEffect</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#getEffectOptions" title="details" class="method-name">getEffectOptions</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">boolean</span>
+										<a href="#getEnabled" title="details" class="method-name">getEnabled</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getLanguage" title="details" class="method-name">getLanguage</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getMode" title="details" class="method-name">getMode</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getShowOn" title="details" class="method-name">getShowOn</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#getTimeHtmlOptions" title="details" class="method-name">getTimeHtmlOptions</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#getTimeOptions" title="details" class="method-name">getTimeOptions</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getType" title="details" class="method-name">getType</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#htmlCode" title="details" class="method-name">htmlCode</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$id</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$name</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#init" title="details" class="method-name">init</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#jsCode" title="details" class="method-name">jsCode</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$id</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#makeOptions" title="details" class="method-name">makeOptions</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#registerClientScripts" title="details" class="method-name">registerClientScripts</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#run" title="details" class="method-name">run</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setDateFormat" title="details" class="method-name">setDateFormat</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setEffect" title="details" class="method-name">setEffect</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setEffectOptions" title="details" class="method-name">setEffectOptions</a>
+											(<span class="var-type">array</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setEnabled" title="details" class="method-name">setEnabled</a>
+											(<span class="var-type">boolean</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setLanguage" title="details" class="method-name">setLanguage</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setMode" title="details" class="method-name">setMode</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setShowOn" title="details" class="method-name">setShowOn</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setTimeHtmlOptions" title="details" class="method-name">setTimeHtmlOptions</a>
+											(<span class="var-type">array</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setTimeOptions" title="details" class="method-name">setTimeOptions</a>
+											(<span class="var-type">array</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setType" title="details" class="method-name">setType</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="var$dateFormat" id="$dateFormat"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>
+			<span class="var-name">$dateFormat</span>
+			 = <span class="var-default"> 'ISO_8601'</span>			(line <span class="line-number">159</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">The date format. This is a string in a date() style, where you can use  these letters as the formatters:</p>
+<p class="description"><p>d - day of month (no leading zero)  dd - day of month (two digit)  D - day name short  DD - day name long  m - month of year (no leading zero)  mm - month of year (two digit)  M - month name short  MM - month name long  y - year (two digit)  yy - year (four digit)  '...' - literal text  '' - single quote</p><p>You can also use these special strings for some preset formats:</p><p>ATOM  COOKIE  ISO_8601  RFC_822  RFC_850  RFC_1036  RFC_1123  RFC_2822  RSS  TIMESTAMP  W3C</p></p>
+	<ul class="tags">
+				<li><span class="field">var:</span> the format</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$effect" id="$effect"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>
+			<span class="var-name">$effect</span>
+			 = <span class="var-default"> 'slideDown'</span>			(line <span class="line-number">197</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Display effects.</p>
+<p class="description"><p>See <a href="http://docs.jquery.com/UI/Datepicker/datepicker#options">http://docs.jquery.com/UI/Datepicker/datepicker#options</a></p><p>Possible values: show, slideDown, fadeIn</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$effectOptions" id="$effectOptions"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>
+			<span class="var-name">$effectOptions</span>
+			 = <span class="var-default">array()</span>			(line <span class="line-number">207</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Optional array of effect options.</p>
+<p class="description"><p>See <a href="http://docs.jquery.com/UI/Datepicker/datepicker#options">http://docs.jquery.com/UI/Datepicker/datepicker#options</a></p><p>Format: key =&gt; value</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$enabled" id="$enabled"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">boolean</span>
+			<span class="var-name">$enabled</span>
+			 = <span class="var-default"> true</span>			(line <span class="line-number">187</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Enable or disable the widget</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$fontSize" id="$fontSize"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>
+			<span class="var-name">$fontSize</span>
+			 = <span class="var-default"> ''</span>			(line <span class="line-number">180</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">The font size. This also controls the size of the widget.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$image" id="$image"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>
+			<span class="var-name">$image</span>
+			 = <span class="var-default"> ''</span>			(line <span class="line-number">117</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">The URL for the image used in the imagebutton mode.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$language" id="$language"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>
+			<span class="var-name">$language</span>
+			 = <span class="var-default"> 'en'</span>			(line <span class="line-number">124</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">The language for the widget.</p>
+	<ul class="tags">
+				<li><span class="field">var:</span> the language suffix</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$maxDate" id="$maxDate"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>
+			<span class="var-name">$maxDate</span>
+			 = <span class="var-default"> ''</span>			(line <span class="line-number">173</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Maximun date in a range</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$minDate" id="$minDate"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>
+			<span class="var-name">$minDate</span>
+			 = <span class="var-default"> ''</span>			(line <span class="line-number">166</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Minimun date in a range</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$mode" id="$mode"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>
+			<span class="var-name">$mode</span>
+			 = <span class="var-default"> 'button'</span>			(line <span class="line-number">99</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">How to show:</p>
+<p class="description"><p>focus - show calendar on focus.  button - show calendar when a button is clicked.  imagebutton - show calendar when an image is clicked.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$showOn" id="$showOn"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>
+			<span class="var-name">$showOn</span>
+			 = <span class="var-default"> 'both'</span>			(line <span class="line-number">88</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">In case a button is used, use just the button or both button and focus  methods. Possible values: 'button', 'both',</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$timeHtmlOptions" id="$timeHtmlOptions"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>
+			<span class="var-name">$timeHtmlOptions</span>
+			 = <span class="var-default">array()</span>			(line <span class="line-number">217</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> html options to overwrite when using time picker.</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$timeOptions" id="$timeOptions"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>
+			<span class="var-name">$timeOptions</span>
+			 = <span class="var-default">array()</span>			(line <span class="line-number">212</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> options to overwrite when using time picker.</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$type" id="$type"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>
+			<span class="var-name">$type</span>
+			 = <span class="var-default"> 'datetime'</span>			(line <span class="line-number">110</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Which controls to present:</p>
+<p class="description"><p>date - show date picker.  time - show time picker.  datetime - show date and time picker.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$useSpecialFormat" id="$useSpecialFormat"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">boolean</span>
+			<span class="var-name">$useSpecialFormat</span>
+			 = <span class="var-default"> true</span>			(line <span class="line-number">228</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Whetever to use a special preset format or not</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$validCallbacks" id="$validCallbacks"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>
+			<span class="var-name">$validCallbacks</span>
+			 = <span class="var-default">array(<br />                                     'beforeShow',<br />                                     'beforeShowDay',<br />                                     'onSelect',<br />                                     'onChangeMonthYear',<br />                                     'onClose',<br />                                    )</span>			(line <span class="line-number">310</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">See @link http://docs.jquery.com/UI/Datepicker/datepicker#options</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../application-extensions-jui/EJqueryUiWidget.html#var$validCallbacks">EJqueryUiWidget::$validCallbacks</a></dt>
+						<dd>Possible valid callbacks, according to the jQuery UI widget documentation</dd>
+					</dl>
+		
+		
+
+</div>
+<a name="var$validEffects" id="$validEffects"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>
+			<span class="var-name">$validEffects</span>
+			 = <span class="var-default">array('show', 'slideDown', 'fadeIn', 'blind', 'clip', 'drop', 'explode', 'fold', 'puff', 'slide', 'scale', 'size', 'pulsate', 'bounce', 'shake')</span>			(line <span class="line-number">235</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Valid effects</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$validLanguages" id="$validLanguages"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>
+			<span class="var-name">$validLanguages</span>
+			 = <span class="var-default">array('ar','bg','ca','cs','da','de','el','eo','es','fa','fi','fr','he','hr','hu','hy','id','is','it','ja','ko','lt','lv','ms','nl','no','pl','pt-BR','ro','ru','sk','sl','sq','sv','th','tr','uk','zh-CN','zh-TW')</span>			(line <span class="line-number">242</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Valid languages</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$validModes" id="$validModes"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>
+			<span class="var-name">$validModes</span>
+			 = <span class="var-default">array('focus', 'button', 'imagebutton')</span>			(line <span class="line-number">256</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Valid modes</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$validOptions" id="$validOptions"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>
+			<span class="var-name">$validOptions</span>
+			 = <span class="var-default">array(<br />                                   'altField'=&gt;array('type'=&gt;'string'),// The jQuery selector for another field that is to be updated with the selected date from the datepicker. Use the altFormat setting below to change the format of the date within this field. Leave as blank for no alternate field. Default: &quot;&quot;<br />'altFormat'=&gt;array('type'=&gt;'string'),// The dateFormat to be used for the altField option. This allows one date format to be shown to the user for selection purposes, while a different format is actually sent behind the scenes. For a full list of the possible formats see the formatDate function . Default: &quot;&quot;<br />'appendText'=&gt;array('type'=&gt;'string'),// The text to display after each date field, e.g. to show the required format. Default: &quot;&quot;<br />'buttonImage'=&gt;array('type'=&gt;'string'),// The URL for the popup button image. If set, button text becomes the alt value and is not directly displayed. Default: &quot;&quot;<br />'buttonImageOnly'=&gt;array('type'=&gt;'boolean'),// Set to true to place an image after the field to use as the trigger without it appearing on a button. Default: false<br />'buttonText'=&gt;array('type'=&gt;'string'),// The text to display on the trigger button. Use in conjunction with showOn equal to 'button' or 'both'. Default: &quot;...&quot;<br />'changeMonth'=&gt;array('type'=&gt;'boolean'),// Allows you to change the month by selecting from a drop-down list. You can enable this feature by setting the attribute to true. Default: false<br />'changeYear'=&gt;array('type'=&gt;'boolean'),// Allows you to change the year by selecting from a drop-down list. You can enable this feature by setting the attribute to true. Default: true<br />'closeText'=&gt;array('type'=&gt;'string'),// The text to display for the close link. This attribute is one of the regionalisation attributes. Use the showButtonPanel to display this button. Default: &quot;Done&quot;<br />'constrainInput'=&gt;array('type'=&gt;'boolean'),// Initialize a datepicker with the constrainInput option specified. Default: true<br />'currentText'=&gt;array('type'=&gt;'string'),// The text to display for the current day link. This attribute is one of the regionalisation attributes. Use the showButtonPanel to display this button. Default: &quot;Today&quot;<br />'dateFormat'=&gt;array('type'=&gt;'string'),// The format for parsed and displayed dates. This attribute is one of the regionalisation attributes. For a full list of the possible formats see the formatDate function. Default: 'mm/dd/yy'<br />'dayNames'=&gt;array('type'=&gt;'array'),// The list of long day names, starting from Sunday, for use as requested via the dateFormat setting. They also appear as popup hints when hovering over the corresponding column headings. This attribute is one of the regionalisation attributes. Default: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']<br />'dayNamesMin'=&gt;array('type'=&gt;'array'),// The list of minimised day names, starting from Sunday, for use as column headers within the datepicker. This attribute is one of the regionalisation attributes. Default: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa']<br />'dayNamesShort'=&gt;array('type'=&gt;'array'),// The list of abbreviated day names, starting from Sunday, for use as requested via the dateFormat setting. This attribute is one of the regionalisation attributes. Default ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']<br />'defaultDate'=&gt;array('type'=&gt;array('string','integer')),// Set the date to highlight on first opening if the field is blank. Specify either an actual date via a Date object, or a number of days from today (e.g. +7) or a string of values and periods ('y' for years, 'm' for months, 'w' for weeks, 'd' for days, e.g. '+1m +7d'), or null for today. Default: null<br />'duration'=&gt;array('type'=&gt;array('string','integer')),// Control the speed at which the datepicker appears, it may be a time in milliseconds, a string representing one of the three predefined speeds (&quot;slow&quot;, &quot;normal&quot;, &quot;fast&quot;), or '' for immediately. Default: 'normal'<br />'firstDay'=&gt;array('type'=&gt;'integer'),// Set the first day of the week: Sunday is 0, Monday is 1, ... This attribute is one of the regionalisation attributes. Default: 0<br />'gotoCurrent'=&gt;array('type'=&gt;'boolean'),// If true, the current day link moves to the currently selected date instead of today. Default: false<br />'hideIfNotPrevNext'=&gt;array('type'=&gt;'boolean'),// Normally the previous and next links are disabled when not applicable (see minDate/maxDate). You can hide them altogether by setting this attribute to true. Default: false<br />'isRTL'=&gt;array('type'=&gt;'boolean'),// True if the current language is drawn from right to left. This attribute is one of the regionalisation attributes. Default: false<br />'maxDate'=&gt;array('type'=&gt;array('string','integer')),// Set a maximum selectable date via a Date object, or a number of days from today (e.g. +7) or a string of values and periods ('y' for years, 'm' for months, 'w' for weeks, 'd' for days, e.g. '+1m +1w'), or null for no limit. Default: null<br />'minDate'=&gt;array('type'=&gt;array('string','integer')),// Set a minimum selectable date via a Date object, or a number of days from today (e.g. +7) or a string of values and periods ('y' for years, 'm' for months, 'w' for weeks, 'd' for days, e.g. '-1y -1m'), or null for no limit. Default: null<br />'monthNames'=&gt;array('type'=&gt;'array'),// The list of full month names, as used in the month header on each datepicker and as requested via the dateFormat setting. This attribute is one of the regionalisation attributes. Default: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']<br />'monthNamesShort'=&gt;array('type'=&gt;'array'),// The list of abbreviated month names, for use as requested via the dateFormat setting. This attribute is one of the regionalisation attributes. Default: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']<br />'navigationAsDateFormat'=&gt;array('type'=&gt;'boolean'),// When true the formatDate function is applied to the prevText, nextText, and currentText values before display, allowing them to display the target month names for example. Default: false<br />'nextText'=&gt;array('type'=&gt;'string'),// The text to display for the next month link. This attribute is one of the regionalisation attributes. With the standard ThemeRoller styling, this value is replaced by an icon. Default: &quot;Next&quot;<br />'numberOfMonths'=&gt;array('type'=&gt;array('integer','array')),// Set how many months to show at once. The value can be a straight integer, or can be a two-element array to define the number of rows and columns to display. Default: 0<br />'prevText'=&gt;array('type'=&gt;'string'),// The text to display for the previous month link. This attribute is one of the regionalisation attributes. With the standard ThemeRoller styling, this value is replaced by an icon. Default: &quot;Prev&quot;<br />'shortYearCutoff'=&gt;array('type'=&gt;array('string','integer')),// Set the cutoff year for determining the century for a date (used in conjunction with dateFormat 'y'). If a numeric value (0-99) is provided then this value is used directly. If a string value is provided then it is converted to a number and added to the current year. Once the cutoff year is calculated, any dates entered with a year value less than or equal to it are considered to be in the current century, while those greater than it are deemed to be in the previous century. Default: &quot;+10&quot;<br />'showAnim'=&gt;array('type'=&gt;'string'),// Set the name of the animation used to show/hide the datepicker. Use 'show' (the default), 'slideDown', 'fadeIn', or any of the show/hide jQuery UI effects. Default: &quot;show&quot;<br />'showButtonPanel'=&gt;array('type'=&gt;'boolean'),// Whether to show the button panel. Default: false<br />'showCurrentAtPos'=&gt;array('type'=&gt;'integer'),// Specify where in a multi-month display the current month shows, starting from 0 at the top/left. Default: 0<br />'showMonthsAfterYear'=&gt;array('type'=&gt;'boolean'),// Whether to show the month after the year in the header. Default: false<br />'showOn'=&gt;array('type'=&gt;'string','possibleValues'=&gt;array('button','both')),// Have the datepicker appear automatically when the field receives focus ('focus'), appear only when a button is clicked ('button'), or appear when either event takes place ('both'). Default: &quot;focus&quot;<br />'showOptions'=&gt;array('type'=&gt;'array'),// If using one of the jQuery UI effects for showAnim, you can provide additional settings for that animation via this option. Default: {}<br />'showOtherMonths'=&gt;array('type'=&gt;'boolean'),// Display dates in other months (non-selectable) at the start or end of the current month. Default: false<br />'stepMonths'=&gt;array('type'=&gt;'number'),// Set how many months to move when clicking the Previous/Next links. Default: 1<br />'yearRange'=&gt;array('type'=&gt;'string')// Control the range of years displayed in the year drop-down: either relative to current year (-nn:+nn) or absolute (nnnn:nnnn). Default: '-10:+1'<br />)</span>			(line <span class="line-number">263</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">See @link http://docs.jquery.com/UI/Datepicker/datepicker#options</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../application-extensions-jui/EJqueryUiWidget.html#var$validOptions">EJqueryUiWidget::$validOptions</a></dt>
+						<dd>Possible valid options, according to the jQuery UI widget documentation</dd>
+					</dl>
+		
+		
+
+</div>
+<a name="var$validPresetDateFormats" id="$validPresetDateFormats"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>
+			<span class="var-name">$validPresetDateFormats</span>
+			 = <span class="var-default">array('ATOM','COOKIE','ISO_8601','RFC_822','RFC_850','RFC_1036','RFC_1123','RFC_2822','RSS','TIMESTAMP','W3C')</span>			(line <span class="line-number">249</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Preset formats (shortcuts)</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+							<h4>Inherited Variables</h4>
+				<A NAME='inherited_vars'><!-- --></A>
+									<p>Inherited from <span class="classname"><a href="../application-extensions-jui/EJqueryUiWidget.html">EJqueryUiWidget</a></span></p>
+					<blockquote>
+													<span class="var-title">
+								<span class="var-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#var$baseUrl">EJqueryUiWidget::$baseUrl</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#var$clientScript">EJqueryUiWidget::$clientScript</a></span><br>
+							</span>
+											</blockquote> 
+										
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																	<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodencode" id="encode"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method encode</span> (line <span class="line-number">569</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Encode an array into a javascript array</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			encode
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$value</span>			</li>
+				</ul>
+		
+			
+	</div>
+
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">322</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">EDatePicker</span>
+		<span class="method-name">
+			__construct
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$owner</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$owner</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetDateFormat" id="getDateFormat"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getDateFormat</span> (line <span class="line-number">527</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Getter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getDateFormat
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetEffect" id="getEffect"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getEffect</span> (line <span class="line-number">349</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Getter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getEffect
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetEffectOptions" id="getEffectOptions"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getEffectOptions</span> (line <span class="line-number">415</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Getter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getEffectOptions
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetEnabled" id="getEnabled"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getEnabled</span> (line <span class="line-number">437</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Getter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">boolean</span>
+		<span class="method-name">
+			getEnabled
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetLanguage" id="getLanguage"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getLanguage</span> (line <span class="line-number">554</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Getter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getLanguage
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetMode" id="getMode"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getMode</span> (line <span class="line-number">481</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Getter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getMode
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetShowOn" id="getShowOn"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getShowOn</span> (line <span class="line-number">459</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Getter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getShowOn
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetTimeHtmlOptions" id="getTimeHtmlOptions"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getTimeHtmlOptions</span> (line <span class="line-number">393</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Getter.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getTimeHtmlOptions
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetTimeOptions" id="getTimeOptions"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getTimeOptions</span> (line <span class="line-number">371</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Getter.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getTimeOptions
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetType" id="getType"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getType</span> (line <span class="line-number">504</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Getter.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getType
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodhtmlCode" id="htmlCode"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">htmlCode</span> (line <span class="line-number">692</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Generates the HTML markup for the widget</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			htmlCode
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$id</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$name</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$id</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$name</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodinit" id="init"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">init</span> (line <span class="line-number">727</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Init.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			init
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodjsCode" id="jsCode"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">jsCode</span> (line <span class="line-number">661</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Generates the javascript code for the widget</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			jsCode
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$id</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$id</span><span class="var-description">: id</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodmakeOptions" id="makeOptions"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">makeOptions</span> (line <span class="line-number">600</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Generates the options for the jQuery widget</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			makeOptions
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodregisterClientScripts" id="registerClientScripts"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">registerClientScripts</span> (line <span class="line-number">706</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			registerClientScripts
+		</span>
+				()
+			</div>
+	
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../application-extensions-jui/EJqueryUiWidget.html#methodregisterClientScripts">EJqueryUiWidget::registerClientScripts()</a></dt>
+						<dd>Registers the external javascript files</dd>
+					</dl>
+			
+	</div>
+<a name="methodrun" id="run"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">run</span> (line <span class="line-number">741</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Run the widget</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			run
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodsetDateFormat" id="setDateFormat"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setDateFormat</span> (line <span class="line-number">514</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Setter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setDateFormat
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$value</span><span class="var-description">: dateFormat</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetEffect" id="setEffect"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">setEffect</span> (line <span class="line-number">337</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Setter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setEffect
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$value</span><span class="var-description">: effect</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetEffectOptions" id="setEffectOptions"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setEffectOptions</span> (line <span class="line-number">403</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Setter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setEffectOptions
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$value</span><span class="var-description">: effectOptions</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetEnabled" id="setEnabled"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">setEnabled</span> (line <span class="line-number">425</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Setter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setEnabled
+		</span>
+					(<span class="var-type">boolean</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$value</span><span class="var-description">: enabled</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetLanguage" id="setLanguage"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setLanguage</span> (line <span class="line-number">537</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Setter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setLanguage
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$value</span><span class="var-description">: language</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetMode" id="setMode"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">setMode</span> (line <span class="line-number">469</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Setter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setMode
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$value</span><span class="var-description">: mode</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetShowOn" id="setShowOn"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setShowOn</span> (line <span class="line-number">447</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Setter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setShowOn
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$value</span><span class="var-description">: showOn</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetTimeHtmlOptions" id="setTimeHtmlOptions"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">setTimeHtmlOptions</span> (line <span class="line-number">381</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Setter.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setTimeHtmlOptions
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$value</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetTimeOptions" id="setTimeOptions"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setTimeOptions</span> (line <span class="line-number">359</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Setter.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setTimeOptions
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$value</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetType" id="setType"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">setType</span> (line <span class="line-number">491</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Setter.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setType
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$value</span>			</li>
+				</ul>
+		
+			
+	</div>
+							<h4>Inherited Methods</h4>
+				<a name='inherited_methods'><!-- --></a>	
+									<!-- =========== Summary =========== -->
+					<p>Inherited From <span class="classname"><a href="../application-extensions-jui/EJqueryUiWidget.html">EJqueryUiWidget</a></span></p>
+					<blockquote>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodcheckCallbacks">EJqueryUiWidget::checkCallbacks()</a></span><br>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodcheckOptions">EJqueryUiWidget::checkOptions()</a></span><br>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodgetCallbacks">EJqueryUiWidget::getCallbacks()</a></span><br>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodgetCompression">EJqueryUiWidget::getCompression()</a></span><br>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodgetOptions">EJqueryUiWidget::getOptions()</a></span><br>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodgetTheme">EJqueryUiWidget::getTheme()</a></span><br>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodgetUseBundledStyleSheet">EJqueryUiWidget::getUseBundledStyleSheet()</a></span><br>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodpublishAssets">EJqueryUiWidget::publishAssets()</a></span><br>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodregisterClientScripts">EJqueryUiWidget::registerClientScripts()</a></span><br>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodsetCallbacks">EJqueryUiWidget::setCallbacks()</a></span><br>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodsetCompression">EJqueryUiWidget::setCompression()</a></span><br>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodsetOptions">EJqueryUiWidget::setOptions()</a></span><br>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodsetTheme">EJqueryUiWidget::setTheme()</a></span><br>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodsetUseBundledStyleSheet">EJqueryUiWidget::setUseBundledStyleSheet()</a></span><br>
+											</blockquote>
+										
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Tue, 21 Feb 2012 00:29:55 -0600 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.4</a>
+	</p>
+	</div></body>
+</html>

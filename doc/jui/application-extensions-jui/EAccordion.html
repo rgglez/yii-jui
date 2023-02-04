@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class EAccordion</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class EAccordion</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+													<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">EAccordion: some rails for the jQuery UI widget &quot;Accordion&quot;.</p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Rodolfo González González</li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_EAccordion.php.html">/EAccordion.php</a> (line <span class="field">70</span>)
+		</p>
+		
+				
+		<pre>CInputWidget
+   |
+   --<a href="../application-extensions-jui/EJqueryUiWidget.html">EJqueryUiWidget</a>
+      |
+      --EAccordion</pre>
+	
+			</div>
+</div>
+
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+																																								<div class="var-title">
+					<span class="var-type">array</span>
+					<a href="#$validCallbacks" title="details" class="var-name">$validCallbacks</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">array</span>
+					<a href="#$validFunctions" title="details" class="var-name">$validFunctions</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">array</span>
+					<a href="#$validOptions" title="details" class="var-name">$validOptions</a>
+				</div>
+											</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																		<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																																																																																				
+												<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#getFunctions" title="details" class="method-name">getFunctions</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getHeaderHtml" title="details" class="method-name">getHeaderHtml</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#getPanels" title="details" class="method-name">getPanels</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#getUseEasing" title="details" class="method-name">getUseEasing</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#htmlCode" title="details" class="method-name">htmlCode</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#init" title="details" class="method-name">init</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#jsCode" title="details" class="method-name">jsCode</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$id</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#makeOptions" title="details" class="method-name">makeOptions</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#registerClientScripts" title="details" class="method-name">registerClientScripts</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#run" title="details" class="method-name">run</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setFunctions" title="details" class="method-name">setFunctions</a>
+											(<span class="var-type">array</span>&nbsp;<span class="var-name">$functions</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setHeaderHtml" title="details" class="method-name">setHeaderHtml</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$headerHtml</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setPanels" title="details" class="method-name">setPanels</a>
+											(<span class="var-type">array</span>&nbsp;<span class="var-name">$panels</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#setUseEasing" title="details" class="method-name">setUseEasing</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$useEasing</span>)
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			
+Strict standards: Only variables should be passed by reference in /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty_Compiler.class.php on line 712
+
+Call Stack:
+    0.0001     226896   1. {main}() /usr/bin/phpdoc:0
+    0.0002     234696   2. require('/usr/lib/php/PhpDocumentor/phpDocumentor/phpdoc.inc') /usr/bin/phpdoc:40
+    0.0514    7644824   3. phpDocumentor_setup->createDocs() /usr/lib/php/PhpDocumentor/phpDocumentor/phpdoc.inc:65
+    0.8664   22706496   4. phpDocumentor_IntermediateParser->Output() /usr/lib/php/PhpDocumentor/phpDocumentor/Setup.inc.php:763
+    0.9179   23030456   5. phpDocumentor_IntermediateParser->Convert() /usr/lib/php/PhpDocumentor/phpDocumentor/IntermediateParser.inc:1867
+    0.9179   23030688   6. Converter->walk() /usr/lib/php/PhpDocumentor/phpDocumentor/IntermediateParser.inc:1654
+    1.0668   24225240   7. HTMLframesConverter->endClass() /usr/lib/php/PhpDocumentor/phpDocumentor/Converter.inc:1936
+    1.0670   24228016   8. Smarty->fetch() /usr/lib/php/PhpDocumentor/phpDocumentor/Converters/HTML/frames/HTMLframesConverter.inc:347
+    1.0890   24630104   9. include('/gnt/athenea4/protected/extensions/jui/doc/jui/26d3399f63abd43a7d72f8c21440dcb0/%%165^%%1653142046^class.tpl.php') /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty.class.php:1298
+    1.0912   24788672  10. Smarty->_smarty_include() /gnt/athenea4/protected/extensions/jui/doc/jui/26d3399f63abd43a7d72f8c21440dcb0/%%165^%%1653142046^class.tpl.php:583
+    1.0912   24792968  11. Smarty->_compile_resource() /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty.class.php:1935
+    1.0913   24799576  12. Smarty->_compile_source() /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty.class.php:1458
+    1.0913   24827192  13. Smarty_Compiler->_compile_file() /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty.class.php:1523
+    1.0921   24874760  14. Smarty_Compiler->_compile_tag() /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty_Compiler.class.php:316
+    1.0922   24875720  15. Smarty_Compiler->_compile_custom_tag() /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty_Compiler.class.php:537
+
+
+Strict standards: Only variables should be passed by reference in /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty_Compiler.class.php on line 712
+
+Call Stack:
+    0.0001     226896   1. {main}() /usr/bin/phpdoc:0
+    0.0002     234696   2. require('/usr/lib/php/PhpDocumentor/phpDocumentor/phpdoc.inc') /usr/bin/phpdoc:40
+    0.0514    7644824   3. phpDocumentor_setup->createDocs() /usr/lib/php/PhpDocumentor/phpDocumentor/phpdoc.inc:65
+    0.8664   22706496   4. phpDocumentor_IntermediateParser->Output() /usr/lib/php/PhpDocumentor/phpDocumentor/Setup.inc.php:763
+    0.9179   23030456   5. phpDocumentor_IntermediateParser->Convert() /usr/lib/php/PhpDocumentor/phpDocumentor/IntermediateParser.inc:1867
+    0.9179   23030688   6. Converter->walk() /usr/lib/php/PhpDocumentor/phpDocumentor/IntermediateParser.inc:1654
+    1.0668   24225240   7. HTMLframesConverter->endClass() /usr/lib/php/PhpDocumentor/phpDocumentor/Converter.inc:1936
+    1.0670   24228016   8. Smarty->fetch() /usr/lib/php/PhpDocumentor/phpDocumentor/Converters/HTML/frames/HTMLframesConverter.inc:347
+    1.0890   24630104   9. include('/gnt/athenea4/protected/extensions/jui/doc/jui/26d3399f63abd43a7d72f8c21440dcb0/%%165^%%1653142046^class.tpl.php') /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty.class.php:1298
+    1.0912   24788672  10. Smarty->_smarty_include() /gnt/athenea4/protected/extensions/jui/doc/jui/26d3399f63abd43a7d72f8c21440dcb0/%%165^%%1653142046^class.tpl.php:583
+    1.0912   24792968  11. Smarty->_compile_resource() /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty.class.php:1935
+    1.0913   24799576  12. Smarty->_compile_source() /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty.class.php:1458
+    1.0913   24827192  13. Smarty_Compiler->_compile_file() /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty.class.php:1523
+    1.0947   24888224  14. Smarty_Compiler->_compile_tag() /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty_Compiler.class.php:316
+    1.0948   24889184  15. Smarty_Compiler->_compile_custom_tag() /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty_Compiler.class.php:537
+
+<a name="var$validCallbacks" id="$validCallbacks"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>
+			<span class="var-name">$validCallbacks</span>
+			 = <span class="var-default">array('change')</span>			(line <span class="line-number">146</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">See @link http://jqueryui.com/demos/accordion/#events</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../application-extensions-jui/EJqueryUiWidget.html#var$validCallbacks">EJqueryUiWidget::$validCallbacks</a></dt>
+						<dd>Possible valid callbacks, according to the jQuery UI widget documentation</dd>
+					</dl>
+		
+		
+
+</div>
+<a name="var$validFunctions" id="$validFunctions"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>
+			<span class="var-name">$validFunctions</span>
+			 = <span class="var-default">array('navigationFilter')</span>			(line <span class="line-number">139</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">See @link http://jqueryui.com/demos/accordion/#options</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$validOptions" id="$validOptions"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>
+			<span class="var-name">$validOptions</span>
+			 = <span class="var-default">array(
+<br />      'active'=&gt;array('type'=&gt;array('boolean', 'number')),// Selector for the active element. Set to false to display none at start. Needs «collapsible: true». Default: first child
+<br />'animated'=&gt;array('type'=&gt;array('boolean','string')),// Choose your favorite animation, or disable them (set to false). In addition to the default, 'bounceslide' and 'easeslide' are supported (both require the easing plugin). Default: false
+<br />'autoHeight'=&gt;array('type'=&gt;'boolean'),// If set, the highest content part is used as height reference for all other parts. Provides more consistent animations. Default: true
+<br />'clearStyle'=&gt;array('type'=&gt;'boolean'),// If set, clears height and overflow styles after finishing animations. This enables accordions to work with dynamic content. Won't work together with autoHeight. Default: false
+<br />'collapsible'=&gt;array('type'=&gt;'boolean'),// Whether all the sections can be closed at once. Allows collapsing the active section by the triggering event (click is the default). Default: false
+<br />'event'=&gt;array('type'=&gt;'string'),// The event on which to trigger the accordion. Default: 'click'
+<br />'fillSpace'=&gt;array('type'=&gt;'boolean'),// If set, the accordion completely fills the height of the parent element. Overrides autoheight. Default: false
+<br />'header'=&gt;array('type'=&gt;'string'),// Selector for the header element. Default: '&gt; li &gt; :first-child,&gt; :not(li):even'
+<br />'icons'=&gt;array('type'=&gt;'array'),// Icons to use for headers. Icons may be specified for 'header' and 'headerSelected', and we recommend using the icons native to the jQuery UI CSS Framework manipulated by jQuery UI ThemeRoller. Default: { 'header': 'ui-icon-triangle-1-e', 'headerSelected': 'ui-icon-triangle-1-s' }
+<br />'navigation'=&gt;array('type'=&gt;'boolean'),// If set, looks for the anchor that matches location.href and activates it. Great for href-based state-saving. Use navigationFilter to implement your own matcher. Default: false
+<br />)</span>			(line <span class="line-number">121</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">The valid script Options for the accordion widget.</p>
+<p class="description"><p>See @link http://jqueryui.com/demos/accordion/#options</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../application-extensions-jui/EJqueryUiWidget.html#var$validOptions">EJqueryUiWidget::$validOptions</a></dt>
+						<dd>Possible valid options, according to the jQuery UI widget documentation</dd>
+					</dl>
+		
+		
+
+</div>
+							<h4>Inherited Variables</h4>
+				<A NAME='inherited_vars'><!-- --></A>
+									<p>Inherited from <span class="classname"><a href="../application-extensions-jui/EJqueryUiWidget.html">EJqueryUiWidget</a></span></p>
+					<blockquote>
+													<span class="var-title">
+								<span class="var-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#var$baseUrl">EJqueryUiWidget::$baseUrl</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#var$clientScript">EJqueryUiWidget::$clientScript</a></span><br>
+							</span>
+											</blockquote> 
+										
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																	<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			
+Strict standards: Only variables should be passed by reference in /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty_Compiler.class.php on line 712
+
+Call Stack:
+    0.0001     226896   1. {main}() /usr/bin/phpdoc:0
+    0.0002     234696   2. require('/usr/lib/php/PhpDocumentor/phpDocumentor/phpdoc.inc') /usr/bin/phpdoc:40
+    0.0514    7644824   3. phpDocumentor_setup->createDocs() /usr/lib/php/PhpDocumentor/phpDocumentor/phpdoc.inc:65
+    0.8664   22706496   4. phpDocumentor_IntermediateParser->Output() /usr/lib/php/PhpDocumentor/phpDocumentor/Setup.inc.php:763
+    0.9179   23030456   5. phpDocumentor_IntermediateParser->Convert() /usr/lib/php/PhpDocumentor/phpDocumentor/IntermediateParser.inc:1867
+    0.9179   23030688   6. Converter->walk() /usr/lib/php/PhpDocumentor/phpDocumentor/IntermediateParser.inc:1654
+    1.0668   24225240   7. HTMLframesConverter->endClass() /usr/lib/php/PhpDocumentor/phpDocumentor/Converter.inc:1936
+    1.0670   24228016   8. Smarty->fetch() /usr/lib/php/PhpDocumentor/phpDocumentor/Converters/HTML/frames/HTMLframesConverter.inc:347
+    1.0890   24630104   9. include('/gnt/athenea4/protected/extensions/jui/doc/jui/26d3399f63abd43a7d72f8c21440dcb0/%%165^%%1653142046^class.tpl.php') /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty.class.php:1298
+    1.0996   24829368  10. Smarty->_smarty_include() /gnt/athenea4/protected/extensions/jui/doc/jui/26d3399f63abd43a7d72f8c21440dcb0/%%165^%%1653142046^class.tpl.php:684
+    1.0996   24833536  11. Smarty->_compile_resource() /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty.class.php:1935
+    1.0997   24847272  12. Smarty->_compile_source() /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty.class.php:1458
+    1.0997   24878448  13. Smarty_Compiler->_compile_file() /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty.class.php:1523
+    1.1008   24974832  14. Smarty_Compiler->_compile_tag() /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty_Compiler.class.php:316
+    1.1009   24975792  15. Smarty_Compiler->_compile_custom_tag() /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty_Compiler.class.php:537
+
+
+Strict standards: Only variables should be passed by reference in /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty_Compiler.class.php on line 712
+
+Call Stack:
+    0.0001     226896   1. {main}() /usr/bin/phpdoc:0
+    0.0002     234696   2. require('/usr/lib/php/PhpDocumentor/phpDocumentor/phpdoc.inc') /usr/bin/phpdoc:40
+    0.0514    7644824   3. phpDocumentor_setup->createDocs() /usr/lib/php/PhpDocumentor/phpDocumentor/phpdoc.inc:65
+    0.8664   22706496   4. phpDocumentor_IntermediateParser->Output() /usr/lib/php/PhpDocumentor/phpDocumentor/Setup.inc.php:763
+    0.9179   23030456   5. phpDocumentor_IntermediateParser->Convert() /usr/lib/php/PhpDocumentor/phpDocumentor/IntermediateParser.inc:1867
+    0.9179   23030688   6. Converter->walk() /usr/lib/php/PhpDocumentor/phpDocumentor/IntermediateParser.inc:1654
+    1.0668   24225240   7. HTMLframesConverter->endClass() /usr/lib/php/PhpDocumentor/phpDocumentor/Converter.inc:1936
+    1.0670   24228016   8. Smarty->fetch() /usr/lib/php/PhpDocumentor/phpDocumentor/Converters/HTML/frames/HTMLframesConverter.inc:347
+    1.0890   24630104   9. include('/gnt/athenea4/protected/extensions/jui/doc/jui/26d3399f63abd43a7d72f8c21440dcb0/%%165^%%1653142046^class.tpl.php') /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty.class.php:1298
+    1.0996   24829368  10. Smarty->_smarty_include() /gnt/athenea4/protected/extensions/jui/doc/jui/26d3399f63abd43a7d72f8c21440dcb0/%%165^%%1653142046^class.tpl.php:684
+    1.0996   24833536  11. Smarty->_compile_resource() /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty.class.php:1935
+    1.0997   24847272  12. Smarty->_compile_source() /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty.class.php:1458
+    1.0997   24878448  13. Smarty_Compiler->_compile_file() /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty.class.php:1523
+    1.1055   24999896  14. Smarty_Compiler->_compile_tag() /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty_Compiler.class.php:316
+    1.1056   25000856  15. Smarty_Compiler->_compile_custom_tag() /usr/lib/php/PhpDocumentor/phpDocumentor/Smarty-2.6.0/libs/Smarty_Compiler.class.php:537
+
+<A NAME='method_detail'></A>
+
+<a name="methodgetFunctions" id="getFunctions"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getFunctions</span> (line <span class="line-number">213</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the functions property.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getFunctions
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetHeaderHtml" id="getHeaderHtml"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getHeaderHtml</span> (line <span class="line-number">189</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the header html tag.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getHeaderHtml
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetPanels" id="getPanels"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getPanels</span> (line <span class="line-number">170</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the panels property.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getPanels
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetUseEasing" id="getUseEasing"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getUseEasing</span> (line <span class="line-number">232</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the useEasing property.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getUseEasing
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodhtmlCode" id="htmlCode"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">htmlCode</span> (line <span class="line-number">277</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Generates the html code for the widget</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			htmlCode
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodinit" id="init"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">init</span> (line <span class="line-number">312</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Inits the widget.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			init
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodjsCode" id="jsCode"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">jsCode</span> (line <span class="line-number">253</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Generates the javascript code for the widget</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			jsCode
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$id</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$id</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodmakeOptions" id="makeOptions"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">makeOptions</span> (line <span class="line-number">241</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			makeOptions
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodregisterClientScripts" id="registerClientScripts"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">registerClientScripts</span> (line <span class="line-number">298</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			registerClientScripts
+		</span>
+				()
+			</div>
+	
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../application-extensions-jui/EJqueryUiWidget.html#methodregisterClientScripts">EJqueryUiWidget::registerClientScripts()</a></dt>
+						<dd>Registers the external javascript files</dd>
+					</dl>
+			
+	</div>
+<a name="methodrun" id="run"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">run</span> (line <span class="line-number">323</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Executes the widget.</p>
+<p class="description"><p>This method is called by CBaseController::endWidget.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			run
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodsetFunctions" id="setFunctions"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setFunctions</span> (line <span class="line-number">204</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sets the functions property.</p>
+<p class="description"><p>Format:  array( 	'navigationFilter' =&gt; 'function() { 		return this.href.toLowerCase()==location.href.toLowerCase(); 	}',  )</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setFunctions
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$functions</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$functions</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetHeaderHtml" id="setHeaderHtml"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">setHeaderHtml</span> (line <span class="line-number">179</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sets the header html tag.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setHeaderHtml
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$headerHtml</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$headerHtml</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetPanels" id="setPanels"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setPanels</span> (line <span class="line-number">161</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sets the panels property.</p>
+<p class="description"><p>Format:  array( 	'Panel 1 Header' =&gt; '&lt;p&gt;Panel 1 Content&lt;/p&gt;', 	'Panel 2 Header' =&gt; '<ul><li>Panel 2 Content</li></ul>',  )</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setPanels
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$panels</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$panels</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetUseEasing" id="setUseEasing"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">setUseEasing</span> (line <span class="line-number">222</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sets the useEasing property.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			setUseEasing
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$useEasing</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$useEasing</span>			</li>
+				</ul>
+		
+			
+	</div>
+							<h4>Inherited Methods</h4>
+				<a name='inherited_methods'><!-- --></a>	
+									<!-- =========== Summary =========== -->
+					<p>Inherited From <span class="classname"><a href="../application-extensions-jui/EJqueryUiWidget.html">EJqueryUiWidget</a></span></p>
+					<blockquote>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodcheckCallbacks">EJqueryUiWidget::checkCallbacks()</a></span><br>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodcheckOptions">EJqueryUiWidget::checkOptions()</a></span><br>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodgetCallbacks">EJqueryUiWidget::getCallbacks()</a></span><br>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodgetCompression">EJqueryUiWidget::getCompression()</a></span><br>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodgetOptions">EJqueryUiWidget::getOptions()</a></span><br>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodgetTheme">EJqueryUiWidget::getTheme()</a></span><br>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodgetUseBundledStyleSheet">EJqueryUiWidget::getUseBundledStyleSheet()</a></span><br>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodpublishAssets">EJqueryUiWidget::publishAssets()</a></span><br>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodregisterClientScripts">EJqueryUiWidget::registerClientScripts()</a></span><br>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodsetCallbacks">EJqueryUiWidget::setCallbacks()</a></span><br>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodsetCompression">EJqueryUiWidget::setCompression()</a></span><br>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodsetOptions">EJqueryUiWidget::setOptions()</a></span><br>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodsetTheme">EJqueryUiWidget::setTheme()</a></span><br>
+													<span class="method-name"><a href="../application-extensions-jui/EJqueryUiWidget.html#methodsetUseBundledStyleSheet">EJqueryUiWidget::setUseBundledStyleSheet()</a></span><br>
+											</blockquote>
+										
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Tue, 21 Feb 2012 00:29:55 -0600 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.4</a>
+	</p>
+	</div></body>
+</html>

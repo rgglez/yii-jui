@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class EJqueryUiWidget</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class EJqueryUiWidget</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+							<a href="#sec-descendents">Descendents</a>
+			|											<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+                <p class="implements">
+            Implements interfaces:
+            <ul>
+                <li><a href="../application-extensions-jui/IJqueryUiWidget.html">IJqueryUiWidget</a></li>            </ul>
+        </p>
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">EJqueryUiWidget is a base class for jQuery UI 1.8.12 widget wrappers.</p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Rodolfo González González</li>
+				<li><span class="field">since:</span> 1.0.2</li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_EJqueryUiWidget.php.html">/EJqueryUiWidget.php</a> (line <span class="field">84</span>)
+		</p>
+		
+				
+		<pre>CInputWidget
+   |
+   --EJqueryUiWidget</pre>
+	
+			</div>
+</div>
+
+	<a name="sec-descendents"></a>
+	<div class="info-box">
+		<div class="info-box-title">Direct descendents</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+			<span class="disabled">Descendents</span>
+			|												<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+								|															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<table cellpadding="2" cellspacing="0" class="class-table">
+				<tr>
+					<th class="class-table-header">Class</th>
+					<th class="class-table-header">Description</th>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../application-extensions-jui/ETabs.html">ETabs</a></td>
+					<td>
+											ETabs is a Yii widget which encapsulates the functionality of the jQuery UI  tabs widget to generate a tabbed panel.
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../application-extensions-jui/EDatePicker.html">EDatePicker</a></td>
+					<td>
+											EDatePicker is a Yii widget which encapsulates the functionality of the  jQuery UI datepicker widget to generate a date picker.
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../application-extensions-jui/EAccordionPanel.html">EAccordionPanel</a></td>
+					<td>
+											EAccordionPanel is a class with abstracts a panel in an accordion
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../application-extensions-jui/EAccordion.html">EAccordion</a></td>
+					<td>
+											EAccordion: some rails for the jQuery UI widget &quot;Accordion&quot;.
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../application-extensions-jui/ETab.html">ETab</a></td>
+					<td>
+											ETab is a class with abstracts a panel in a tabpanel
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../application-extensions-jui/EDialog.html">EDialog</a></td>
+					<td>
+											EDialog is a Yii widget which encapsulates the functionality of the jQuery UI  dialog widget to generate a dialog.
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../application-extensions-jui/EProgressBar.html">EProgressBar</a></td>
+					<td>
+											EProgressBar: some rails for the jQuery UI widget &quot;ProgressBar&quot;.
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../application-extensions-jui/ESlider.html">ESlider</a></td>
+					<td>
+											ESlider is a Yii widget which encapsulates the functionality of the jQuery UI  slider widget to generate a dialog.
+										</td>
+				</tr>
+							</table>
+		</div>
+	</div>
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+																																																<div class="var-title">
+					<span class="var-type">string</span>
+					<a href="#$baseUrl" title="details" class="var-name">$baseUrl</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">CClientScript</span>
+					<a href="#$clientScript" title="details" class="var-name">$clientScript</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">array</span>
+					<a href="#$validCallbacks" title="details" class="var-name">$validCallbacks</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">array</span>
+					<a href="#$validOptions" title="details" class="var-name">$validOptions</a>
+				</div>
+											</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+																		<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+												<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#checkCallbacks" title="details" class="method-name">checkCallbacks</a>
+											(<span class="var-type">array</span>&nbsp;<span class="var-name">$value</span>, <span class="var-type">array</span>&nbsp;<span class="var-name">$validCallbacks</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#checkOptions" title="details" class="method-name">checkOptions</a>
+											(<span class="var-type">array</span>&nbsp;<span class="var-name">$value</span>, <span class="var-type">array</span>&nbsp;<span class="var-name">$validOptions</span>)
+									</div>
+																																																																																																								
+																												<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#getCallbacks" title="details" class="method-name">getCallbacks</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">integer</span>
+										<a href="#getCompression" title="details" class="method-name">getCompression</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#getOptions" title="details" class="method-name">getOptions</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><type></span>
+										<a href="#getTheme" title="details" class="method-name">getTheme</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">boolean</span>
+										<a href="#getUseBundledStyleSheet" title="details" class="method-name">getUseBundledStyleSheet</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#publishAssets" title="details" class="method-name">publishAssets</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#registerClientScripts" title="details" class="method-name">registerClientScripts</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setCallbacks" title="details" class="method-name">setCallbacks</a>
+											(<span class="var-type">array</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setCompression" title="details" class="method-name">setCompression</a>
+											(<span class="var-type">integer</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setOptions" title="details" class="method-name">setOptions</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setTheme" title="details" class="method-name">setTheme</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setUseBundledStyleSheet" title="details" class="method-name">setUseBundledStyleSheet</a>
+											(<span class="var-type">boolean</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="var$baseUrl" id="$baseUrl"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>
+			<span class="var-name">$baseUrl</span>
+			 = <span class="var-default"> ''</span>			(line <span class="line-number">120</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">The base URL for the published assets</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$clientScript" id="$clientScript"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">CClientScript</span>
+			<span class="var-name">$clientScript</span>
+			 = <span class="var-default"> null</span>			(line <span class="line-number">127</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">The CClientScript instance</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$validCallbacks" id="$validCallbacks"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>
+			<span class="var-name">$validCallbacks</span>
+			 = <span class="var-default">array()</span>			(line <span class="line-number">141</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Possible valid callbacks, according to the jQuery UI widget documentation</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../application-extensions-jui/ETabs.html#var$validCallbacks">ETabs::$validCallbacks</a>
+								: See <a href="http://jqueryui.com/demos/tabs">http://jqueryui.com/demos/tabs</a>
+							</li>
+					<li>
+				<a href="../application-extensions-jui/EDatePicker.html#var$validCallbacks">EDatePicker::$validCallbacks</a>
+								: See @link http://docs.jquery.com/UI/Datepicker/datepicker#options
+							</li>
+					<li>
+				<a href="../application-extensions-jui/EAccordion.html#var$validCallbacks">EAccordion::$validCallbacks</a>
+								: See @link http://jqueryui.com/demos/accordion/#events
+							</li>
+					<li>
+				<a href="../application-extensions-jui/EDialog.html#var$validCallbacks">EDialog::$validCallbacks</a>
+								: See @link http://docs.jquery.com/UI/Dialog/dialog#options
+							</li>
+					<li>
+				<a href="../application-extensions-jui/EProgressBar.html#var$validCallbacks">EProgressBar::$validCallbacks</a>
+								: See @link http://jqueryui.com/demos/progressbar/#events
+							</li>
+					<li>
+				<a href="../application-extensions-jui/ESlider.html#var$validCallbacks">ESlider::$validCallbacks</a>
+								: See @link http://docs.jquery.com/UI/Slider/slider#options
+							</li>
+				</ul>
+		
+
+</div>
+<a name="var$validOptions" id="$validOptions"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>
+			<span class="var-name">$validOptions</span>
+			 = <span class="var-default">array()</span>			(line <span class="line-number">134</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Possible valid options, according to the jQuery UI widget documentation</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../application-extensions-jui/ETabs.html#var$validOptions">ETabs::$validOptions</a>
+								: See <a href="http://jqueryui.com/demos/tabs">http://jqueryui.com/demos/tabs</a>
+							</li>
+					<li>
+				<a href="../application-extensions-jui/EDatePicker.html#var$validOptions">EDatePicker::$validOptions</a>
+								: See @link http://docs.jquery.com/UI/Datepicker/datepicker#options
+							</li>
+					<li>
+				<a href="../application-extensions-jui/EAccordion.html#var$validOptions">EAccordion::$validOptions</a>
+								: The valid script Options for the accordion widget.
+							</li>
+					<li>
+				<a href="../application-extensions-jui/EDialog.html#var$validOptions">EDialog::$validOptions</a>
+								: See @link http://docs.jquery.com/UI/Dialog/dialog#options
+							</li>
+					<li>
+				<a href="../application-extensions-jui/EProgressBar.html#var$validOptions">EProgressBar::$validOptions</a>
+								: The valid script Options for the progressbar widget.
+							</li>
+					<li>
+				<a href="../application-extensions-jui/ESlider.html#var$validOptions">ESlider::$validOptions</a>
+								: See @link http://docs.jquery.com/UI/Slider/slider#options
+							</li>
+				</ul>
+		
+
+</div>
+						
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																	<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodcheckCallbacks" id="checkCallbacks"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method checkCallbacks</span> (line <span class="line-number">296</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Check callbacks against the valid ones</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			checkCallbacks
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$value</span>, <span class="var-type">array</span>&nbsp;<span class="var-name">$validCallbacks</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$value</span><span class="var-description">: user's callbacks</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$validCallbacks</span><span class="var-description">: valid callbacks</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcheckOptions" id="checkOptions"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method checkOptions</span> (line <span class="line-number">267</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Check the options against the valid ones</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			checkOptions
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$value</span>, <span class="var-type">array</span>&nbsp;<span class="var-name">$validOptions</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$value</span><span class="var-description">: user's options</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$validOptions</span><span class="var-description">: valid options</span>			</li>
+				</ul>
+		
+			
+	</div>
+
+<a name="methodgetCallbacks" id="getCallbacks"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getCallbacks</span> (line <span class="line-number">188</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Getter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getCallbacks
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetCompression" id="getCompression"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getCompression</span> (line <span class="line-number">232</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Getter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">integer</span>
+		<span class="method-name">
+			getCompression
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetOptions" id="getOptions"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getOptions</span> (line <span class="line-number">165</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Getter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getOptions
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetTheme" id="getTheme"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getTheme</span> (line <span class="line-number">212</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Gets the theme from the singleton.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><type></span>
+		<span class="method-name">
+			getTheme
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetUseBundledStyleSheet" id="getUseBundledStyleSheet"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getUseBundledStyleSheet</span> (line <span class="line-number">252</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Getter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">boolean</span>
+		<span class="method-name">
+			getUseBundledStyleSheet
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodpublishAssets" id="publishAssets"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">publishAssets</span> (line <span class="line-number">310</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Publishes the assets</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			publishAssets
+		</span>
+				()
+			</div>
+	
+		
+				<hr class="separator" />
+		<div class="notes">Implementation of:</div>
+			<dl>
+			<dt><a href="../application-extensions-jui/IJqueryUiWidget.html#methodpublishAssets">IJqueryUiWidget::publishAssets()</a></dt>
+					</dl>
+			
+	</div>
+<a name="methodregisterClientScripts" id="registerClientScripts"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">registerClientScripts</span> (line <span class="line-number">319</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Registers the external javascript files</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			registerClientScripts
+		</span>
+				()
+			</div>
+	
+		
+				<hr class="separator" />
+		<div class="notes">Implementation of:</div>
+			<dl>
+			<dt><a href="../application-extensions-jui/IJqueryUiWidget.html#methodregisterClientScripts">IJqueryUiWidget::registerClientScripts()</a></dt>
+					</dl>
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../application-extensions-jui/EDatePicker.html#methodregisterClientScripts">EDatePicker::registerClientScripts()</a>
+							</li>
+					<li>
+				<a href="../application-extensions-jui/EAccordion.html#methodregisterClientScripts">EAccordion::registerClientScripts()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodsetCallbacks" id="setCallbacks"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setCallbacks</span> (line <span class="line-number">175</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Setter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setCallbacks
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$value</span><span class="var-description">: callbacks</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetCompression" id="setCompression"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">setCompression</span> (line <span class="line-number">222</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Setter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setCompression
+		</span>
+					(<span class="var-type">integer</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$value</span><span class="var-description">: compression</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetOptions" id="setOptions"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setOptions</span> (line <span class="line-number">152</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Setter</p>
+	<ul class="tags">
+				<li><span class="field">var:</span> options</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setOptions
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$value</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetTheme" id="setTheme"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">setTheme</span> (line <span class="line-number">202</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sets the theme.</p>
+<p class="description"><p>You need to set exactly one theme in all your jQuery UI widgets. The first  theme defined will be used for all the widgets. A singleton is used to  enforce this.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setTheme
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$value</span><span class="var-description">: theme</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetUseBundledStyleSheet" id="setUseBundledStyleSheet"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setUseBundledStyleSheet</span> (line <span class="line-number">242</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Setter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setUseBundledStyleSheet
+		</span>
+					(<span class="var-type">boolean</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$value</span><span class="var-description">: useBundledStyleSheet</span>			</li>
+				</ul>
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Tue, 21 Feb 2012 00:29:55 -0600 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.4</a>
+	</p>
+	</div></body>
+</html>
