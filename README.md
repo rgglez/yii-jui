@@ -1,6 +1,6 @@
 # JUI - jQuery UI extension widgets for Yii 1.1.
 
-JUI is an extension for Yii 1.1 containing several widgets based on jQuery UI. This widgets are now part of Yii 1.1 and Yii 2.x, so this extension is deprecated, and it is provided just as a reference. Included are two jQuery packages, versions 1.10.3 and 1.12.1, which are rather old :) 
+JUI is an extension for Yii 1.1 containing several widgets based on jQuery UI. This widgets are now part of Yii 2.x, so this extension is deprecated, and it is provided just as a reference. Included are two jQuery packages, versions 1.10.3 and 1.12.1, which are rather old :) 
 
 Main classes:
 
