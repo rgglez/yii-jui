@@ -24,6 +24,10 @@ Directories:
 * *assets/* - contains both jQuery UI javascript libraries, plus some other assets.
 * *docs/* - contains documentation generated with phpDocumentor. It also contains the licenses and other documentation for jQuery UI.
 
+## Installation and usage
+
+Please visit the extension page [here](https://www.yiiframework.com/extension/jui).
+
 ## License
 
 Copyright 2008-2023 Rodolfo González González.
