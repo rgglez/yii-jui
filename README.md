@@ -38,4 +38,4 @@ Please visit the extension page [here](https://www.yiiframework.com/extension/ju
 
 Copyright (c) 2008-2023 Rodolfo González González.
 
-See the LICENSE file.
+See the LICENSE-MIT and LICENSE-GPL3 files.
