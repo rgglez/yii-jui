@@ -296,7 +296,7 @@ class EDialog extends EJqueryUiWidget
    protected function makeOptions($id)
    {
       $options = [];
-      $buttons = [];
+      $buttons = '';
 
       $jsButtons =<<<EOP
 jQuery('.ui-dialog-buttonpane').find('button').addClass('btn').addClass('btn-default').addClass('btn-sm'); 
