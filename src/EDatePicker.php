@@ -559,7 +559,7 @@ class EDatePicker extends EJqueryUiWidget
          $this->language = $lang;
       }
       else {
-         $suffix = empty($lang) ? 'en' : ($p !== false) ? strtolower(substr($lang, 0, $p)) : strtolower($lang);
+         $suffix = empty($lang) ? 'en' : ($p !== false ? strtolower(substr($lang, 0, $p)) : strtolower($lang));
          if (in_array($suffix, $this->validLanguages)) $this->language = $suffix;
       }
 	}
