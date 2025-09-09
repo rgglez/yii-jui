@@ -1,10 +1,12 @@
 # JUI - jQuery UI extension widgets for Yii 1.1.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
-[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) 
+[![License: GPL v3](https://img.shields.io/badge/License-GPL_v3-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-3.0.en.html) 
 ![GitHub all releases](https://img.shields.io/github/downloads/rgglez/yii-jui/total) 
 ![GitHub issues](https://img.shields.io/github/issues/rgglez/yii-jui) 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/rgglez/yii-jui)
+![GitHub stars](https://img.shields.io/github/stars/rgglez/yii-jui?style=social)
+![GitHub forks](https://img.shields.io/github/forks/rgglez/yii-jui?style=social)
 
 JUI is an extension for [Yii](https://yiiframework.com) 1.1 containing several widgets based on jQuery UI. This widgets are now part of Yii 2.x, so this extension is deprecated, and it is provided just as a reference. Included are two jQuery packages, versions 1.10.3 and 1.12.1, which are rather old :) 
 
